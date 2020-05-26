@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Mark It Down</title>
+  </head>
+  <body>
+    <header>
+      <h1>Mark <span>It</span> Down</h1>
+    </header>
+    <main>
+      <div id="inputTextContainer">
+        <div class="toolbar">
+          <p class="pStyle">Markdown</p>
+          <div id="theme">
+            <p class="pStyle">Select Your Theme:</p>
+            <select
+              id="editTheme"
+              class="form-control-sm"
+              id="exampleFormControlSelect1"
+            >
+              <option>github</option>
+              <option>clouds</option>
+              <option>chrome</option>
+              <option>tomorrow_night</option>
+              <option>twilight</option>
+            </select>
+          </div>
+        </div>
+        <div id="editor"></div>
+      </div>
+      <div id="htmlTextContainer">
+        <div class="toolbar">
+          <p class="pStyle">Preview</p>
+          <div id="theme">
+            <p class="pStyle">Select Your Theme:</p>
+            <select
+              id="htmlTheme"
+              class="form-control-sm"
+              id="exampleFormControlSelect1"
+            >
+              <option>regular</option>
+              <option>nightmode</option>
+            </select>
+          </div>
+        </div>
+        <div id="htmlText"></div>
+      </div>
+    </main>
+    <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.rawgit.com/showdownjs/showdown/1.0.1/dist/showdown.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+      integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.4.11/ace.js"></script>
+    <script src="main.js" defer></script>
+  </body>
+</html>

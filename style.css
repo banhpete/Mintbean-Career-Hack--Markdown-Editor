@@ -1,0 +1,97 @@
+*{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  padding: 0px;
+  margin:0px;
+}
+
+header{
+  margin:0px;
+  font-size:30px;
+  padding:8px 0;
+  text-align:center;
+  background:url(Images/paper.jpg);
+}
+
+header h1,span{
+  padding: 0;
+  margin: 0;
+  font-family: 'Chelsea Market', cursive;
+}
+
+header span{
+  color:red;
+}
+
+main{
+  padding: 0;
+  margin: 0;
+  background: #e2dddd;
+  display:flex;
+  flex-direction:row;
+  flex-grow:1;
+}
+
+.toolbar{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  padding:5px;
+}
+
+.pStyle{
+  font-size:12px;
+  font-weight:500;
+  margin: 0 10px 0 0;
+  padding:5px 0 6px 10px;
+  text-transform:uppercase;
+}
+
+#theme{
+  display:flex;
+}
+
+main > div{
+  box-sizing: border-box;
+  margin: 0px;
+  padding:10px;
+  width:50%;
+  border:1px solid black;
+}
+
+#editor{
+  height: 100%;
+  width: 100%;
+}
+
+#inputTextContainer{
+  display:flex;
+  flex-direction:column;
+}
+
+#htmlTextContainer{
+  display:flex;
+  flex-direction:column;
+}
+
+#htmlText{
+  margin: 0;
+  box-sizing: border-box;
+  background:white;
+  width: 100%;
+  height: 100%;
+  padding:0 10px;
+}
+
+footer{
+  height:20px;
+  background:url(Images/paper.jpg);
+}
+
