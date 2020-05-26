@@ -95,3 +95,17 @@ footer{
   background:url(Images/paper.jpg);
 }
 
+@media only screen and (max-width: 850px) {
+  main {
+    flex-direction: column;
+  }
+  main > div{
+    box-sizing: border-box;
+    margin: 0px;
+    padding:10px;
+    height:50%;
+    width:auto;
+    border:1px solid black;
+  }
+
+}
